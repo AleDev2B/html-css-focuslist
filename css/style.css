@@ -50,6 +50,11 @@ p{
   vertical-align:middle;
 }
 
+.images-header-basso img{
+  height: 49px;
+  vertical-align: middle;
+}
+
 .img-header-sx img{
   width: 134px;
   margin-bottom: 40px;
@@ -214,10 +219,10 @@ footer{
 }
 
 ul{
-  width: 21%;
+  width: 14%;
   list-style-type: none;
   padding-left: 0;
-  margin-left: 0;
+  margin-left: 98px;
   display: inline-grid;
 }
 
