@@ -17,16 +17,15 @@
               <h1>Do more deep work</h1>
               <h2>FocusList is a daily planner & focus app based on Pomodoro technique. It helps you plan your day, stay focused and track your time.</h2>
             </div>
-            <div class="container-header-basso">
+
               <div class="images-header-basso">
                 <img src="img/smartwatch.png" alt="immagine smartwatch">
-                <span>Iphone & Apple Watch</span>
+                <span id="smartphone">Iphone & Apple Watch</span>
               </div>
-              <div class="images-header-basso-2">
+              <div class="images-header-basso">
                 <img src="img/mac.png" alt="immagine desktop mac">
                 <span>Mac</span>
               </div>
-            </div>
 
           </div>
 
@@ -34,8 +33,6 @@
             <img src="img/hero_screenshots@2x.png" alt="hero_screenshots">
           </div>
       </section>
-
-
 
     </header>
 
@@ -46,7 +43,7 @@
       </div>
 
       <div class="planning-sez-sx">
-        <h2>Write today's Focus List</h2>
+        <h2 class="titoli">Write today's Focus List</h2>
         <p>Write down all the tasks for today. Split bigger tasks into smaller ones. Plan your day ahead and commit to do everything on your list.
         </p>
       </div>
@@ -56,7 +53,7 @@
       </div>
 
       <div class="planning-sez-dx">
-        <h2>Timebox each activity</h2>
+        <h2 class="titoli">Timebox each activity</h2>
         <p>For each task, mark your best estimate. FocusList will count everything and show what does your day look like.</p>
       </div>
 
@@ -66,40 +63,43 @@
 
       <div class="focus-block-alta">
         <h1>Focus with the Pomodoro technique</h1>
-        <p>Pick a task, do it for 25 minutes. Take a 5 minute break. That was one session. Keep going until the task is done.
+        <p id="p-focus">Pick a task, do it for 25 minutes. Take a 5 minute break. That was one session. Keep going until the task is done.
         </p>
       </div>
 
-      <div class="focus-block-sx">
-        <div class="img-block-sx">
+      <div class="focus-block">
+        <div class="img-block">
           <img src="img/focus_screenshot1@2x.png" alt="">
+          <div class="focus-block-sx">
+            <h3 class="titolipiccoli">Select task from your list</h3>
+            <p class="parag-col">One thing at a time. Always select one task that you’ll be working on, and dedicate your session to it.</p>
+          </div>
         </div>
-        <h3>Select task from your list</h3>
-        <p>One thing at a time. Always select one task that you’ll be working on, and dedicate your session to it.</p>
-      </div>
 
-      <div class="focus-block-central">
-        <div class="img-block-central">
+        <div class="img-block">
           <img src="img/focus_screenshot2@2x.png" alt="">
+          <div class="focus-block-central">
+            <h3 class="titolipiccoli">Work for 25 minutes</h3>
+            <p class="parag-col">Spend the next 25 minutes to focus, focus, focus on your task. Distractions will wait till your break.</p>
+          </div>
         </div>
-        <h3>Work for 25 minutes</h3>
-        <p>Spend the next 25 minutes to focus, focus, focus on your task. Distractions will wait till your break.</p>
-      </div>
 
-      <div class="focus-block-dx">
-        <div class="img-block-dx">
+        <div class="img-block">
           <img src="img/focus_screenshot3@2x.png" alt="">
+          <div class="focus-block-dx">
+            <h3 class="titolipiccoli">Take a 5 minute break</h3>
+            <p class="parag-col">Take the break even if you still have energy. Assimilate what you’ve learned. Start another cycle refreshed.</p>
+          </div>
         </div>
-        <h3>Take a 5 minute break</h3>
-        <p>Take the break even if you still have energy. Assimilate what you’ve learned. Start another cycle refreshed.</p>
+
       </div>
 
     </section>
 
     <section class="track-time">
       <div class="track-time-sez-alta">
-        <h1>Track time</h1>
-        <h2>FocusList comes with time tracker built in! Was it a good day? Ask your data. Just open Stats and look at the history of sessions/day, what times you worked, and how good were your estimates.
+        <h1 id="track">Track time</h1>
+        <h2 id="track-h2">FocusList comes with time tracker built in! Was it a good day? Ask your data. Just open Stats and look at the history of sessions/day, what times you worked, and how good were your estimates.
         </h2>
         <div class="img-track-sx">
           <img src="img/stats1@2x.png" alt="">
@@ -111,23 +111,24 @@
     </section>
 
     <footer>
-      <ul>
-        <li>Apps</li>
-        <li>iPhone + Apple Watch</li>
-        <li>Mac</li>
-      </ul>
-      <ul>
-        <li>Social</li>
-        <li>Twitter</li>
-      </ul>
-      <ul>
-        <li>Contact</li>
-        <li>Support</li>
-        <li>Feedback</li>
-      </ul>
-      <ul>
-        <li>© 2016 FocusList</li>
-      </ul>
+        <ul>
+          <li class="titoli-footer">Apps</li>
+          <li>iPhone + Apple Watch</li>
+          <li>Mac</li>
+        </ul>
+        <ul>
+          <li class="titoli-footer">Social</li>
+          <li>Twitter</li>
+        </ul>
+        <ul>
+          <li class="titoli-footer">Contact</li>
+          <li>Support</li>
+          <li>Feedback</li>
+        </ul>
+        <ul>
+          <li class="titoli-footer">© 2016 FocusList</li>
+        </ul>
+
     </footer>
   </body>
 </html>
